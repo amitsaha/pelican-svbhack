@@ -15,6 +15,7 @@
   </div>
   <div class="article_meta">
     <p>Posted on: {{ article.locale_date }}</p>
+    <p>Generated from: "https://github.com/amitsaha/amitsaha.github.io/blob/site/content/{{ article.source_path | basename }}"</p>
     <p>Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
       {% if article.tags %} &ndash; Tags:
       {% for tag in article.tags %}
