@@ -10,11 +10,7 @@
   <div class="article_title">
     <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
   </div>
-  <div class="article_text">
-    {{ article.content }}
-  </div>
-  <div class="article_meta">
-    <p>Posted on: {{ article.locale_date }}</p>
+  <p>Posted on: {{ article.locale_date }}</p>
     <p>Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
       {% if article.tags %} &ndash; Tags:
       {% for tag in article.tags %}
@@ -22,6 +18,11 @@
       {% endfor %}
       {% endif %}
     </p>
+    
+  <div class="article_text">
+    {{ article.content }}
+  </div>
+  <div class="article_meta">
     <p>Generated from: <a href="https://github.com/amitsaha/amitsaha.github.io/blob/site/content/{{ article.source_path | basename }}">{{ article.source_path | basename }}</a></p>
     <p><a href="https://github.com/amitsaha/amitsaha.github.io/issues/new?title={{ article.title }}">Report a problem/Discuss</a></p>
   </div>
