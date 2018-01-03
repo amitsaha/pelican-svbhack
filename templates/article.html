@@ -15,7 +15,6 @@
   </div>
   <div class="article_meta">
     <p>Posted on: {{ article.locale_date }}</p>
-    <p>Generated from: <a href="https://github.com/amitsaha/amitsaha.github.io/blob/site/content/{{ article.source_path | basename }}">{{ article.source_path | basename }}</a></p>
     <p>Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
       {% if article.tags %} &ndash; Tags:
       {% for tag in article.tags %}
@@ -23,6 +22,8 @@
       {% endfor %}
       {% endif %}
     </p>
+    <p>Generated from: <a href="https://github.com/amitsaha/amitsaha.github.io/blob/site/content/{{ article.source_path | basename }}">{{ article.source_path | basename }}</a></p>
+    <p><a href="https://github.com/amitsaha/amitsaha.github.io/issues/new?title={{ article.title }}">Report a problem/Discuss</a></p>
   </div>
 
   {% if DISQUS_SITENAME %}
