@@ -2,6 +2,11 @@
 {% block title %}&ndash; Categories{% endblock %}
 
 {% block content %}
+
+{% if category == "notes" %}
+The following are unstructured notes on various things:
+{% endif %}
+
 <article>
   <div class="article_text">
     <ul>
