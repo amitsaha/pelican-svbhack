@@ -53,7 +53,7 @@
         {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
         <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
         {% endfor %}{% endif %}
-        <li><a href="{{ SITEURL }}/category/notes.html">Notes</a></li>
+        <li><a href="{{ SITEURL }}/notes/">Notes</a></li>
         {% for name, link in LINKS %}
         <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
         {% endfor %}
