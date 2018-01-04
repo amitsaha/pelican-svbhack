@@ -10,7 +10,7 @@
   <p>These are unstructured notes on various things:
   <p>
 {% for note in notes %}
-<li><a href="{{ SITEURL }}/{{ note.slug }}">{{ note.title }}</a></li>
+<li><a href="{{ SITEURL }}/{{ note.save_as }}">{{ note.title }}</a></li>
 {% endfor %}
 
 </article>
