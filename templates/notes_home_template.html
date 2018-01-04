@@ -7,9 +7,10 @@
 <div class="article_title">
     <h1><a href="{{ SITEURL }}/notes">Notes</a></h1>
   </div>
-These are unstructured notes on various things:
+  <p>These are unstructured notes on various things:
+  <p>
 {% for note in notes %}
-<li><a href="{{ note.url }}">{{ note.title }}</a></li>
+<li><a href="{{ SITEURL }}/{{ note.slug }}">{{ note.title }}</a></li>
 {% endfor %}
 
 </article>
