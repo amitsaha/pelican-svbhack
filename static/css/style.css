@@ -6,9 +6,18 @@ h1 {
 	font-weight: 700;
 	line-height: 23px;
 }
+h2 {
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+}
+
 h3 {
 	font-family: Ubuntu;
-	font-size: 17px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -16,7 +25,7 @@ h3 {
 }
 p {
 	font-family: Ubuntu;
-	font-size: 14px;
+	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
