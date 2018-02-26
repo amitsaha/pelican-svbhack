@@ -123,6 +123,11 @@ main article {
 main article div.article_text {
   line-height: 1.375em;
 }
+main article div.article_text ul li{
+  line-height: 1.375em;
+}
+
+
 main article div.article_text a {
   text-decoration: underline;
 }
