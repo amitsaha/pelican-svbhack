@@ -60,30 +60,24 @@
     {% endblock %}
 
     <header>
-    <div id="user_meta">
+    
       <a href="{{ SITEURL }}">
         
       </a>
       
         {% for title, link in MENUITEMS %}
-        <p><a href="{{ link }}">{{ title }}<
+        <p><a href="{{ link }}">{{ title }}
         &brvbar;
         {% endfor %}
         {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
         <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
         &brvbar;
         {% endfor %}{% endif %}
-        <a href="{{ SITEURL }}/notes/">Notes</p></li>
-        &brvbar;
-        {% for name, link in LINKS %}
-        <a href="{{ link }}" target="_blank">{{ name }}</a>
-        &brvbar;
-        {% endfor %}
+        <a href="{{ SITEURL }}/notes/">Notes</a>
+        
        </p>
        
-      
-    </div>
-  </header>
+   </header>
     <div id="ending_message">
       <p>&copy; {{ AUTHOR }}. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. <a href="https://github.com/amitsaha/pelican-svbhack/">Customised theme</a> based on the one by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. {% if INTERNET_DEFENSE_LEAGUE %}Member of the <a href="http://internetdefenseleague.org">Internet Defense League</a>.{% endif %}</p>
     </div>
