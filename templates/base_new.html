@@ -60,13 +60,11 @@
     {% endblock %}
 
     <header>
-    
-      <a href="{{ SITEURL }}">
-        
-      </a>
+       <p>
+      
       
         {% for title, link in MENUITEMS %}
-        <p><a href="{{ link }}">{{ title }}
+         <a href="{{ link }}">{{ title }}</a>
         &brvbar;
         {% endfor %}
         {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
