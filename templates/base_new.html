@@ -64,21 +64,28 @@
       <a href="{{ SITEURL }}">
         
       </a>
-      <ul>
+      
         {% for title, link in MENUITEMS %}
-        <li><a href="{{ link }}">{{ title }}</a></li>
+        <p><a href="{{ link }}">{{ title }}</p><
+        &brvbar;
         {% endfor %}
         {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
-        <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+        <p><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+        &brvbar;
         {% endfor %}{% endif %}
-        <li><a href="{{ SITEURL }}/notes/">Notes</a></li>
+        <p><a href="{{ SITEURL }}/notes/">Notes</p></li>
+        &brvbar;
         {% for name, link in LINKS %}
-        <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
+        <a href="{{ link }}" target="_blank">{{ name }}</a>
+        &brvbar;
         {% endfor %}
         {% for name, link in SOCIAL %}
-        <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
+        <a href="{{ link }}" target="_blank">{{ name }}</a>
+       &brvbar;
+       </p>
         {% endfor %}
-      </ul>
+     
+      
     </div>
   </header>
     <div id="ending_message">
