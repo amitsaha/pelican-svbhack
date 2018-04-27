@@ -66,14 +66,14 @@
       </a>
       
         {% for title, link in MENUITEMS %}
-        <p><a href="{{ link }}">{{ title }}</p><
+        <p><a href="{{ link }}">{{ title }}<
         &brvbar;
         {% endfor %}
         {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
-        <p><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+        <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
         &brvbar;
         {% endfor %}{% endif %}
-        <p><a href="{{ SITEURL }}/notes/">Notes</p></li>
+        <a href="{{ SITEURL }}/notes/">Notes</p></li>
         &brvbar;
         {% for name, link in LINKS %}
         <a href="{{ link }}" target="_blank">{{ name }}</a>
