@@ -1,5 +1,6 @@
 {% extends "base_new.html" %}
 {% block content %}
+<div class="article_title">
 <h1> About</h1>
 <p> 
   Hello, My name is Amit - I am interested in programming, software tools, systems and infrastructure.
@@ -8,6 +9,7 @@
 </p>
 
 <h1> Blog posts</h1>
+</div>
 
 {% for article in articles_page.object_list %}
 <article>
