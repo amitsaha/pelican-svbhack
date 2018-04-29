@@ -41,7 +41,12 @@
   <main>
     <header>
       <p>
-      <a href="{{ SITEURL }}">Home</a> &brvbar; <a href="{{ SITEURL }}/archives.html">Posts</a>
+      <a href="{{ SITEURL }}">Home</a> &brvbar; 
+      <a href="{{ SITEURL }}/archives.html">Posts</a>
+      <a href="{{ SITEURL }}/pages/about.html">About</a> &brvbar; 
+      <a href="{{ SITEURL }}/pages/books.html">Books</a> &brvbar;
+      <a href="{{ SITEURL }}/pages/articles.html">Articles</a> &brvbar;
+      <a href="{{ SITEURL }}/pages/notes.html">Notes</a> &brvbar;
       {% if FEED_ALL_ATOM %}
       &brvbar; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">Atom</a>
       {% endif %}
@@ -60,24 +65,7 @@
     {% endblock %}
 
     
-    <bottomlinkbar>
-       <p>
-      
-      
-        {% for title, link in MENUITEMS %}
-         <a href="{{ link }}">{{ title }}</a>
-        &brvbar;
-        {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}{% for p in pages %}
-        <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
-        &brvbar;
-        {% endfor %}{% endif %}
-        <a href="{{ SITEURL }}/notes/">Notes</a>
-        
-       </p>
-       
-    </bottomlinkbar>
-    <div id="ending_message">
+   <div id="ending_message">
       <p>&copy; {{ AUTHOR }}. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. <a href="https://github.com/amitsaha/pelican-svbhack/">Customised theme</a> based on the one by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. {% if INTERNET_DEFENSE_LEAGUE %}Member of the <a href="http://internetdefenseleague.org">Internet Defense League</a>.{% endif %}</p>
     </div>
   </main>
