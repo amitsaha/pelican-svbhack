@@ -6,7 +6,14 @@
 {% block title %}&ndash; {{ article.title }}{% endblock %}
 
 {% block content %}
+
 <article>
+  {% if article.toc %}
+    <nav class="toc">
+    {{ article.toc }}
+    </nav>
+{% endif %}
+  
   <div class="article_title">
     <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
   </div>
