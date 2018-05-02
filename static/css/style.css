@@ -239,6 +239,10 @@ main div#ending_message {
   main article {
     max-width: 800px;
   }
+	
+  main about {
+    max-width: 800px;
+	}
   main header {
     border-top: 0;
   }
