@@ -21,17 +21,13 @@
   
   <p> My post recent posts are below. So far, I have written about 
     <a href="https://echorand.me/category/C.html">C</a>, <a href="https://echorand.me/category/fedora.html">Fedora</a>,
-     <a href="https://echorand.me/category/golang.html">Golang</a>, <a href="https://echorand.me/category/infrastructure.html"> Infrastructure</a>, <a href="https://echorand.me/category/python.html">Python</a> and <a href="https://echorand.me/category/software.html">various others</a>.
-     
-                                                                  </p>
+     <a href="https://echorand.me/category/golang.html">Golang</a>, <a href="https://echorand.me/category/infrastructure.html"> Infrastructure</a>, <a href="https://echorand.me/category/python.html">Python</a> and <a href="https://echorand.me/category/software.html">various others</a>.</p>
     
   </div>
-</article>
+
 
 {% for article in articles_page.object_list %}
 
-
-<article>
   <div class="article_title">
     <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
   </div>
