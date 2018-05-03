@@ -135,9 +135,9 @@ main article {
 
 main about {
   max-width: 900px;  
-  display: block;
-  margin: 0;
+  display: block;  
   padding: 0;
+  margin: 22px 2px 22px 2px; 
 }
 
 main article div.article_text {
