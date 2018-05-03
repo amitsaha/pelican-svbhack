@@ -134,9 +134,10 @@ main article {
 }
 
 main about {
-  max-width: 900px;
-  padding: 15px;
+  max-width: 900px;  
   display: block;
+  margin: 0;
+  padding: 0;
 }
 
 main article div.article_text {
