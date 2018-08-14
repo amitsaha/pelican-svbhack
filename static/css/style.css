@@ -5,12 +5,12 @@ h1 {
 	font-family: Inconsolata;
 	font-size: 26px;
 	font-style: normal;
-	font-variant: small-caps;
+	font-variant: normal;
 	font-weight: 800;
 	line-height: 23px;
 }
 h2 {
-	font-family: Ubuntu;
+	font-family: Inconsolata;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-	font-family: Ubuntu;
+	font-family: Inconsolata;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
@@ -27,7 +27,7 @@ h3 {
 	line-height: 23px;
 }
 p {
-	font-family: Ubuntu;
+	font-family: Inconsolata;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
@@ -35,7 +35,7 @@ p {
 	line-height: 23px;
 }
 blockquote {
-	font-family: Ubuntu;
+	font-family: Inconsolata;
 	font-size: 17px;
 	font-style: normal;
 	font-variant: normal;
@@ -43,7 +43,7 @@ blockquote {
 	line-height: 23px;
 }
 pre {
-	font-family: Ubuntu;
+	font-family: Inconsolata;
 	font-size: 11px;
 	font-style: normal;
 	font-variant: normal;
@@ -56,7 +56,7 @@ body {
   padding: 0;
   background-color: #ffffff;
   color: #4d4d4d;
-  font-family: 'PT Sans', sans-serif;
+  font-family: Inconsolata;
   font-size: 18px;
 }
 a {
@@ -173,7 +173,7 @@ main article div.article_text code {
   padding: 0;
   color: #000000;
   font-size: .8rem;
-  font-family: 'PT Mono', monospace;
+  font-family: Inconsolata;
   background: #eeeeee;
 }
 main article div.article_text pre {
@@ -182,7 +182,7 @@ main article div.article_text pre {
   color: #000000;
   border-left: 3px solid #0e94ec;
   font-size: .8rem;
-  font-family: 'PT Mono', monospace;
+  font-family: Inconsolata;
   background: #eeeeee;
   line-height: 1.125em;
   overflow-x: auto;
