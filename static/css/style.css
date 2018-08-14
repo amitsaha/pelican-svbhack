@@ -20,7 +20,7 @@ h2 {
 
 h3 {
 	font-family: Inconsolata;
-	font-size: 16px;
+	font-size: 17px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -28,7 +28,7 @@ h3 {
 }
 p {
 	font-family: Inconsolata;
-	font-size: 15px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -44,7 +44,7 @@ blockquote {
 }
 pre {
 	font-family: Inconsolata;
-	font-size: 11px;
+	font-size: 12px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -197,7 +197,7 @@ main article div.gist {
   line-height: .875em;
 }
 main article div.article_meta {
-  font-size: .7rem;
+  font-size: 1;
   color: #999999;
 }
 main footer {
