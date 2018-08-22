@@ -3,7 +3,7 @@
 }
 h1 {
 	font-family: Inconsolata;
-	font-size: 26px;
+	font-size: 27px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 800;
@@ -11,7 +11,7 @@ h1 {
 }
 h2 {
 	font-family: Inconsolata;
-	font-size: 18px;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
@@ -20,7 +20,7 @@ h2 {
 
 h3 {
 	font-family: Inconsolata;
-	font-size: 17px;
+	font-size: 22px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -28,7 +28,7 @@ h3 {
 }
 p {
 	font-family: Inconsolata;
-	font-size: 16px;
+	font-size: 17px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -44,7 +44,7 @@ blockquote {
 }
 pre {
 	font-family: Inconsolata;
-	font-size: 12px;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
