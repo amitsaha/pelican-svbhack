@@ -28,10 +28,10 @@ h3 {
 }
 p {
 	font-family: Courier;
-	font-size: 18px;
+	font-size: 19px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 550;
+	font-weight: 500;
 	line-height: 23px;
 }
 blockquote {
@@ -180,6 +180,13 @@ main article div.article_text ul li{
 
 main article div.article_text a {
   text-decoration: underline;
+  font-size: 19px;
+	font-family: Courier;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
 }
 main article div.article_text code {
   margin: 2px;
