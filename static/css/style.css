@@ -11,10 +11,10 @@ h1 {
 }
 h2 {
 	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-size: 19px;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 900;
+	font-weight: 500;
 	line-height: 23px;
 }
 
@@ -178,13 +178,10 @@ main article div.article_text ul li{
 
 
 main article div.article_text a {
-  text-decoration: underline;
-  font-size: 19px;
-	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-size: 19px;
+  text-decoration: underline;  
+	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";	
 	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
+	font-variant: normal;	
 	line-height: 23px;
 }
 main article div.article_text code {
