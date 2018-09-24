@@ -48,11 +48,11 @@ blockquote {
 	line-height: 23px;
 }
 pre {
-	font-family: Courier;
+	font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 23px;
 }
 
