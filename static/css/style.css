@@ -1,12 +1,17 @@
 * {
-    * font-family: Courier;
+    * font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
 }
 h1 {
 	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 	font-size: 22px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 1000;
+	font-weight: 500;
 	line-height: 23px;
 }
 h2 {
@@ -23,7 +28,7 @@ h3 {
 	font-size: 17px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 800;
+	font-weight: 300;
 	line-height: 23px;
 }
 p {
