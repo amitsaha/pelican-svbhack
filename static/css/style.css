@@ -8,7 +8,7 @@
 }
 h1 {
 	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-size: 22px;
+	font-size: 25px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -16,7 +16,7 @@ h1 {
 }
 h2 {
 	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-size: 20px;
+	font-size: 23px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -25,7 +25,7 @@ h2 {
 
 h3 {
 	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-size: 17px;
+	font-size: 22px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
@@ -33,7 +33,7 @@ h3 {
 }
 p {
 	font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	font-size: 15px;
+	font-size: 21px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -49,7 +49,7 @@ blockquote {
 }
 pre {
 	font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
-	font-size: 14px;
+	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -166,15 +166,16 @@ main about p{
 main article div.article_title h1 a {
   
    font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-   font-size: 20px;
+   font-size: 22px;
    font-style: normal;
    font-variant: normal;
-   font-weight: 500;
+   font-weight: 400;
    line-height: 23px;
 }
 
 
 main article div.article_text {
+  font-size: 21px;
   line-height: 1.375em;
 }
 main article div.article_text ul li{
