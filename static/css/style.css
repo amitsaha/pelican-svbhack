@@ -198,7 +198,7 @@ main article div.article_text code {
   padding: 0;
   color: #000000;
   font-size: 1rem;
-  font-family: Courier;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   background: #eeeeee;
 }
 main article div.article_text pre {
@@ -207,7 +207,7 @@ main article div.article_text pre {
   color: #000000;
   border-left: 3px solid #0e94ec;
   font-size: 1.1rem;
-  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace,
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   background: #eeeeee;
   line-height: 1.125em;
   overflow-x: auto;
