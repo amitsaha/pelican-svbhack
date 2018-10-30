@@ -137,12 +137,12 @@ main bottomlinkbar p {
 }
 
 main article {
-  max-width: 900px;
+  max-width: 1000px;
   padding: 40px;
 }
 
 main about {
-  max-width: 900px;  
+  max-width: 1000px;  
   display: block;  
   padding: 0;
   margin: 22px 2px 22px 2px;
@@ -150,7 +150,7 @@ main about {
 }
 
 main about h1{
-  max-width: 900px;  
+  max-width: 1000px;  
   display: block;  
   padding: 0;
   margin: 22px 2px 22px 32px;  
@@ -158,7 +158,7 @@ main about h1{
 }
 
 main about p{
-  max-width: 900px;  
+  max-width: 1000px;  
   display: block;  
   padding: 0;
   margin: 22px 2px 22px 32px;  
@@ -282,11 +282,11 @@ main div#ending_message {
     overflow-y: hidden;
   }
   main article {
-    max-width: 800px;
+    max-width: 900px;
   }
 	
   main about {
-    max-width: 800px;
+    max-width: 900px;
 	}
   main header {
     border-top: 0;
