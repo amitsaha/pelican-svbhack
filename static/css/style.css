@@ -8,7 +8,7 @@
 }
 h1 {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 23px;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -16,7 +16,7 @@ h1 {
 }
 h2 {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -168,7 +168,7 @@ main about p{
 main article div.article_title h1 a {
   
    font-family: Verdana, Geneva, sans-serif;
-   font-size: 26px;
+   font-size: 20px;
    font-style: normal;
    font-variant: normal;
    font-weight: 400;
